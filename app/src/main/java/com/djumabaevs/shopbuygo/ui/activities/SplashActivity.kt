@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
+import android.os.Looper
 import android.view.WindowManager
 import com.djumabaevs.shopbuygo.R
 
@@ -21,14 +22,13 @@ class SplashActivity : AppCompatActivity() {
 
         // Adding the handler to after the a task after some delay.
         // It is deprecated in the API level 30.
-        Handler().postDelayed(
+        Handler(Looper.getMainLooper()).postDelayed(
             {
-                // Launch the Login Activity
-                startActivity(Intent(this@SplashActivity, SplashActivity::class.java))
-                finish() // Call this when your activity is done and should be closed.
+                startActivity(Intent(this@SplashActivity, MainActivity::class.java))
+                finish()
             },
             2500
-        ) // Here we pass the delay time in milliSeconds after which the splash activity will disappear.
+        )
 
     }
 }
