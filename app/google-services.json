@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "219031295377",
+    "project_id": "shopbuygo-e7651",
+    "storage_bucket": "shopbuygo-e7651.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:219031295377:android:fa390edec0092b2531f630",
+        "android_client_info": {
+          "package_name": "com.djumabaevs.shopbuygo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "219031295377-q1pt5mro3k4s2a843isuevhio2jotdq6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.djumabaevs.shopbuygo",
+            "certificate_hash": "f572a86decb460ebe791538ee70aff48f7e5ba34"
+          }
+        },
+        {
+          "client_id": "219031295377-ccaum95gbe6cvt3700ult770h7h5db4t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAV3zgng04mQuWr_ZGrNT-oGViw2QGRJKA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "219031295377-ccaum95gbe6cvt3700ult770h7h5db4t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
